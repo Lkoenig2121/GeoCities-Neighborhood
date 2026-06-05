@@ -2,11 +2,40 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Database, GuestbookEntry, Neighborhood, Site } from "./types.js";
+import { buildDemoGuestbook, buildDemoSites } from "./demo-sites.js";
 import { createSeedData } from "./seed.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
 const DB_PATH = path.join(DATA_DIR, "db.json");
+
+function mergeDemoData(db: Database): Database {
+  const now = new Date().toISOString();
+  const demoSites = buildDemoSites(now);
+  const demoGuestbook = buildDemoGuestbook(now);
+
+  const existingSiteIds = new Set(db.sites.map((s) => s.id));
+  const existingGuestbookIds = new Set(db.guestbook.map((g) => g.id));
+
+  let changed = false;
+
+  for (const site of demoSites) {
+    if (!existingSiteIds.has(site.id)) {
+      db.sites.push(site);
+      changed = true;
+    }
+  }
+
+  for (const entry of demoGuestbook) {
+    if (!existingGuestbookIds.has(entry.id)) {
+      db.guestbook.push(entry);
+      changed = true;
+    }
+  }
+
+  if (changed) saveDb(db);
+  return db;
+}
 
 function ensureDb(): Database {
   if (!fs.existsSync(DATA_DIR)) {
@@ -20,7 +49,8 @@ function ensureDb(): Database {
   }
 
   const raw = fs.readFileSync(DB_PATH, "utf-8");
-  return JSON.parse(raw) as Database;
+  const db = JSON.parse(raw) as Database;
+  return mergeDemoData(db);
 }
 
 function saveDb(db: Database): void {
