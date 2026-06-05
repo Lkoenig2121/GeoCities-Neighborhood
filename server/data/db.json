@@ -1,0 +1,159 @@
+{
+  "neighborhoods": [
+    {
+      "id": "gaming-avenue",
+      "name": "Gaming Avenue",
+      "tagline": "Where pixels never sleep",
+      "emoji": "🎮",
+      "theme": {
+        "primaryColor": "#6b21a8",
+        "secondaryColor": "#9333ea",
+        "accentColor": "#facc15",
+        "skyColor": "#1e1b4b",
+        "groundColor": "#312e81"
+      },
+      "gridWidth": 8,
+      "gridHeight": 6,
+      "musicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+      "id": "anime-plaza",
+      "name": "Anime Plaza",
+      "tagline": "Kawaii chaos central",
+      "emoji": "🌸",
+      "theme": {
+        "primaryColor": "#db2777",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#fef08a",
+        "skyColor": "#fce7f3",
+        "groundColor": "#fbcfe8"
+      },
+      "gridWidth": 8,
+      "gridHeight": 6,
+      "musicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+      "id": "music-street",
+      "name": "Music Street",
+      "tagline": "MIDI files at max volume",
+      "emoji": "🎵",
+      "theme": {
+        "primaryColor": "#0369a1",
+        "secondaryColor": "#0ea5e9",
+        "accentColor": "#f97316",
+        "skyColor": "#0c4a6e",
+        "groundColor": "#075985"
+      },
+      "gridWidth": 8,
+      "gridHeight": 6,
+      "musicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    },
+    {
+      "id": "sci-fi-boulevard",
+      "name": "Sci-Fi Boulevard",
+      "tagline": "Beam me to the guestbook",
+      "emoji": "🚀",
+      "theme": {
+        "primaryColor": "#047857",
+        "secondaryColor": "#10b981",
+        "accentColor": "#a7f3d0",
+        "skyColor": "#022c22",
+        "groundColor": "#064e3b"
+      },
+      "gridWidth": 8,
+      "gridHeight": 6,
+      "musicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    }
+  ],
+  "sites": [
+    {
+      "id": "demo-pixelmaster",
+      "neighborhoodId": "gaming-avenue",
+      "username": "PixelMaster99",
+      "title": "PixelMaster's Lair",
+      "tagline": "High scores & hot takes",
+      "gridX": 2,
+      "gridY": 1,
+      "buildingStyle": "tower",
+      "html": "<div class=\"lair\">\n  <h1>🕹️ PIXELMASTER99 🕹️</h1>\n  <p>Professional button-masher since 1997</p>\n  <img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Crect fill='%23ff0' width='80' height='80'/%3E%3Ctext x='40' y='45' text-anchor='middle' font-size='40'%3E👾%3C/text%3E%3C/svg%3E\" alt=\"alien\">\n  <p><blink>NEW HIGH SCORE: 999999</blink></p>\n</div>",
+      "css": ".lair { text-align:center; color:#0f0; background:#111; padding:20px; font-family:monospace; }\nh1 { color:#f0f; text-shadow:0 0 10px #0ff; }",
+      "gifs": [
+        "construction",
+        "new",
+        "email"
+      ],
+      "musicEnabled": true,
+      "musicUrl": "",
+      "visitorCount": 1343,
+      "createdAt": "2026-06-05T14:20:29.595Z",
+      "updatedAt": "2026-06-05T18:26:30.463Z"
+    },
+    {
+      "id": "demo-sakura",
+      "neighborhoodId": "anime-plaza",
+      "username": "SakuraDreams",
+      "title": "Sakura's Anime Shrine",
+      "tagline": "Fan art & feelings",
+      "gridX": 4,
+      "gridY": 2,
+      "buildingStyle": "cottage",
+      "html": "<div class=\"shrine\">\n  <h1>✨ Sakura's Shrine ✨</h1>\n  <p>Currently crying over episode 24...</p>\n  <marquee>★ fanfic updates every friday ★</marquee>\n</div>",
+      "css": ".shrine { background:linear-gradient(#ffc0cb,#fff); padding:16px; text-align:center; font-family:cursive; color:#c026d3; }",
+      "gifs": [
+        "heart",
+        "sparkle",
+        "new"
+      ],
+      "musicEnabled": false,
+      "musicUrl": "",
+      "visitorCount": 422,
+      "createdAt": "2026-06-05T14:20:29.595Z",
+      "updatedAt": "2026-06-05T14:25:58.673Z"
+    },
+    {
+      "neighborhoodId": "gaming-avenue",
+      "username": "Lkoenig2121",
+      "title": "Call of Duty Commpetitive",
+      "tagline": "Call of Duty COD Competitive",
+      "gridX": 0,
+      "gridY": 0,
+      "buildingStyle": "house",
+      "html": "<div class=\"welcome\">\n  <h1>★ Welcome to My Homepage! ★</h1>\n  <p><blink>UNDER CONSTRUCTION</blink></p>\n  <hr>\n  <p>Thanks for visiting my corner of the web!</p>\n  <ul>\n    <li>🎮 Favorite game: Call of Duty</li>\n    <li>🎵 Now playing: dial-up noises</li>\n    <li>💌 Email me: coolperson@geocities.net</li>\n  </ul>\n  <marquee>★ Thanks 4 visiting!! Sign my guestbook!! ★</marquee>\n</div>",
+      "css": ".welcome {\n  text-align: center;\n  font-family: \"Comic Sans MS\", cursive;\n  color: #ff00ff;\n}\nh1 {\n  color: #00ffff;\n  text-shadow: 2px 2px #ff0000;\n}\nblink {\n  color: #ffff00;\n  font-weight: bold;\n}\nmarquee {\n  background: #000080;\n  color: #00ff00;\n  padding: 4px;\n}",
+      "gifs": [
+        "fire",
+        "star",
+        "guestbook"
+      ],
+      "musicEnabled": true,
+      "musicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "visitorCount": 19,
+      "id": "a57fae77-fc19-4742-90a5-121bb0fabcc4",
+      "createdAt": "2026-06-05T14:23:56.801Z",
+      "updatedAt": "2026-06-05T18:27:02.255Z"
+    }
+  ],
+  "guestbook": [
+    {
+      "id": "gb-1",
+      "siteId": "demo-pixelmaster",
+      "author": "RetroGamer_X",
+      "message": "yo dude your high score board is sick!! add me on ICQ",
+      "createdAt": "2026-06-05T14:20:29.595Z"
+    },
+    {
+      "id": "gb-2",
+      "siteId": "demo-pixelmaster",
+      "author": "MomsComputer",
+      "message": "Honey please take down the blink tag",
+      "createdAt": "2026-06-05T14:20:29.595Z"
+    },
+    {
+      "id": "d82f7d29-dadc-4962-8b26-fe71bb24db6c",
+      "siteId": "a57fae77-fc19-4742-90a5-121bb0fabcc4",
+      "author": "Lkoenig2121",
+      "message": "Hey everybody! What's happening? Add me on Xbox my gamertag is Koenig12100!",
+      "createdAt": "2026-06-05T14:25:35.000Z"
+    }
+  ]
+}
