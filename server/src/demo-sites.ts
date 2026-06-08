@@ -214,23 +214,23 @@ h1 { text-align:center; color:#ff0; }`,
     {
       id: "demo-quakeclan",
       neighborhoodId: "gaming-avenue",
-      username: "QuakeClan666",
-      title: "Clan [666] Fortress",
+      username: "QuakeClan777",
+      title: "Clan [777] Fortress",
       tagline: "We frag on Tuesdays",
       gridX: 7,
       gridY: 3,
       buildingStyle: "house",
       html: `<div class="clan">
-  <h1>☠️ CLAN [666] ☠️</h1>
+  <h1>☠️ CLAN [777] ☠️</h1>
   <p>Quake II deathmatch champions of the basement</p>
   <p>Roster: DeaTHLord, xXSniperXx, lag_king, mom_go_away</p>
   <p><blink>RECRUITING: must have 56k modem</blink></p>
 </div>`,
-      css: `.clan { background:#111; color:#666; padding:16px; text-align:center; font-family:monospace; }
+      css: `.clan { background:#111; color:#777; padding:16px; text-align:center; font-family:monospace; }
 h1 { color:#f00; }`,
       gifs: ["skull", "fire", "email"],
       musicEnabled: true,
-      visitorCount: 666,
+      visitorCount: 777,
     },
 
     // ── Anime Plaza ────────────────────────────────────────────

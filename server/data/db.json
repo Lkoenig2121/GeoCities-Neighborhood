@@ -84,9 +84,9 @@
       ],
       "musicEnabled": true,
       "musicUrl": "",
-      "visitorCount": 1347,
+      "visitorCount": 1349,
       "createdAt": "2026-06-05T14:20:29.595Z",
-      "updatedAt": "2026-06-05T21:49:39.219Z"
+      "updatedAt": "2026-06-05T21:52:33.881Z"
     },
     {
       "id": "demo-sakura",
@@ -119,7 +119,7 @@
       "gridY": 0,
       "buildingStyle": "house",
       "html": "<div class=\"welcome\">\n  <h1>★ Welcome to My Homepage! ★</h1>\n  <p><blink>UNDER CONSTRUCTION</blink></p>\n  <hr>\n  <p>Thanks for visiting my corner of the web!</p>\n  <ul>\n    <li>🎮 Favorite game: Call of Duty</li>\n    <li>🎵 Now playing: dial-up noises</li>\n    <li>💌 Email me: coolperson@geocities.net</li>\n  </ul>\n  <marquee>★ Thanks 4 visiting!! Sign my guestbook!! ★</marquee>\n</div>",
-      "css": ".welcome {\n  text-align: center;\n  font-family: \"Comic Sans MS\", cursive;\n  color: #ff00ff;\n}\nh1 {\n  color: #00ffff;\n  text-shadow: 2px 2px #ff0000;\n}\nblink {\n  color: #ffff00;\n  font-weight: bold;\n}\nmarquee {\n  background: #000080;\n  color: #00ff00;\n  padding: 4px;\n}",
+      "css": ".welcome {\n  text-align: center;\n  font-family: \"Comic Sans MS\", cursive;\n  color: #ff00ff;\n}\nh1 {\n  color: #00ffff;\n  text-shadow: 2px 2px #ff0000;\n}\nblink {\n  color: #ffff00;\n  font-weight: bold;\n}\nmarquee {\n  background: #000080;\n  color: #00ff00;\n  padding: 20px;\n}",
       "gifs": [
         "fire",
         "star",
@@ -127,10 +127,10 @@
       ],
       "musicEnabled": true,
       "musicUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-      "visitorCount": 23,
+      "visitorCount": 33,
       "id": "a57fae77-fc19-4742-90a5-121bb0fabcc4",
       "createdAt": "2026-06-05T14:23:56.801Z",
-      "updatedAt": "2026-06-05T21:48:22.215Z"
+      "updatedAt": "2026-06-08T13:28:10.874Z"
     },
     {
       "id": "demo-buttonmash",
@@ -215,10 +215,10 @@
         "alien"
       ],
       "musicEnabled": false,
-      "visitorCount": 3401,
+      "visitorCount": 3403,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:30.342Z"
     },
     {
       "id": "demo-crtkyle",
@@ -237,10 +237,10 @@
         "email"
       ],
       "musicEnabled": true,
-      "visitorCount": 743,
+      "visitorCount": 745,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:25.894Z"
     },
     {
       "id": "demo-doomgal",
@@ -259,10 +259,10 @@
         "new"
       ],
       "musicEnabled": true,
-      "visitorCount": 1566,
+      "visitorCount": 1568,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:28.330Z"
     },
     {
       "id": "demo-emulator",
@@ -281,32 +281,32 @@
         "counter"
       ],
       "musicEnabled": false,
-      "visitorCount": 4892,
+      "visitorCount": 4894,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:17.174Z"
     },
     {
       "id": "demo-quakeclan",
       "neighborhoodId": "gaming-avenue",
-      "username": "QuakeClan666",
-      "title": "Clan [666] Fortress",
+      "username": "QuakeClan777",
+      "title": "Clan [777] Fortress",
       "tagline": "We frag on Tuesdays",
       "gridX": 7,
       "gridY": 3,
       "buildingStyle": "house",
-      "html": "<div class=\"clan\">\n  <h1>☠️ CLAN [666] ☠️</h1>\n  <p>Quake II deathmatch champions of the basement</p>\n  <p>Roster: DeaTHLord, xXSniperXx, lag_king, mom_go_away</p>\n  <p><blink>RECRUITING: must have 56k modem</blink></p>\n</div>",
-      "css": ".clan { background:#111; color:#666; padding:16px; text-align:center; font-family:monospace; }\nh1 { color:#f00; }",
+      "html": "<div class=\"clan\">\n  <h1>☠️ CLAN [777] ☠️</h1>\n  <p>Quake II deathmatch champions of the basement</p>\n  <p>Roster: DeaTHLord, xXSniperXx, lag_king, mom_go_away</p>\n  <p><blink>RECRUITING: must have 56k modem</blink></p>\n</div>",
+      "css": ".clan { background:#111; color:#777; padding:16px; text-align:center; font-family:monospace; }\nh1 { color:#f00; }",
       "gifs": [
         "skull",
         "fire",
         "email"
       ],
       "musicEnabled": true,
-      "visitorCount": 666,
+      "visitorCount": 668,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:22.980Z"
     },
     {
       "id": "demo-narutokid",
@@ -325,10 +325,10 @@
         "sparkle"
       ],
       "musicEnabled": true,
-      "visitorCount": 1999,
+      "visitorCount": 2001,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:46.423Z"
     },
     {
       "id": "demo-sailormoon",
@@ -457,10 +457,10 @@
         "counter"
       ],
       "musicEnabled": false,
-      "visitorCount": 2456,
+      "visitorCount": 2458,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:48.998Z"
     },
     {
       "id": "demo-kawaiikat",
@@ -523,10 +523,10 @@
         "counter"
       ],
       "musicEnabled": true,
-      "visitorCount": 1876,
+      "visitorCount": 1878,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:53.210Z"
     },
     {
       "id": "demo-punkrocker",
@@ -545,10 +545,10 @@
         "email"
       ],
       "musicEnabled": true,
-      "visitorCount": 999,
+      "visitorCount": 1001,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:56.811Z"
     },
     {
       "id": "demo-cdripper",
@@ -567,10 +567,10 @@
         "counter"
       ],
       "musicEnabled": false,
-      "visitorCount": 3141,
+      "visitorCount": 3143,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:52:58.575Z"
     },
     {
       "id": "demo-ravequeen",
@@ -611,10 +611,10 @@
         "new"
       ],
       "musicEnabled": true,
-      "visitorCount": 1488,
+      "visitorCount": 1490,
       "musicUrl": "",
       "createdAt": "2026-06-05T21:51:08.380Z",
-      "updatedAt": "2026-06-05T21:51:08.380Z"
+      "updatedAt": "2026-06-05T21:53:00.709Z"
     },
     {
       "id": "demo-mixtape",

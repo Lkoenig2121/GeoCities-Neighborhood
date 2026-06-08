@@ -144,7 +144,7 @@ a:hover {
   width: 100%;
   padding: 0.5rem;
   background: #000;
-  border: 2px inset #666;
+  border: 2px inset #777;
   color: #0f0;
   font-family: "Courier New", monospace;
   font-size: 0.95rem;
@@ -366,7 +366,7 @@ a:hover {
   background: #333;
   color: var(--retro-green);
   padding: 0.35rem 0;
-  border-top: 4px solid #666;
+  border-top: 4px solid #777;
 }
 
 /* Pixel Buildings */
@@ -471,7 +471,7 @@ button.pixel-building:hover {
   gap: 0.4rem;
   padding: 0.4rem 0.75rem;
   background: linear-gradient(#ddd, #aaa);
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #777;
 }
 .site-frame__dot {
   width: 10px;
@@ -606,10 +606,10 @@ button.pixel-building:hover {
   font-size: 0.8rem;
 }
 .guestbook__entry-header time {
-  color: #666;
+  color: #777;
 }
 .guestbook__empty {
-  color: #666;
+  color: #777;
   font-style: italic;
 }
 
@@ -662,13 +662,13 @@ button.pixel-building:hover {
 
 /* Editor */
 .editor {
-  border: 3px ridge #666;
+  border: 3px ridge #777;
   margin: 1rem 0;
 }
 .editor__tabs {
   display: flex;
   background: #c0c0c0;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #777;
 }
 .editor__tab {
   padding: 0.5rem 1.5rem;
@@ -757,7 +757,7 @@ button.pixel-building:hover {
 .music-toggle__btn {
   padding: 0.4rem 1rem;
   background: linear-gradient(#444, #222);
-  border: 2px outset #666;
+  border: 2px outset #777;
   color: #fff;
   font-family: inherit;
   cursor: pointer;
@@ -830,7 +830,7 @@ button.pixel-building:hover {
   color: var(--retro-green);
 }
 .create-form__error {
-  color: #ff6666;
+  color: #ff7776;
 }
 
 /* Site editor */
@@ -877,7 +877,7 @@ button.pixel-building:hover {
   color: var(--retro-cyan);
 }
 .site-editor__music {
-  border: 3px ridge #666;
+  border: 3px ridge #777;
   padding: 1rem;
   margin-top: 1rem;
 }
